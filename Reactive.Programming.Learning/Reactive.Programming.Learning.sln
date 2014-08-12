@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentsDashboard.Server", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentsDashboard.Server.Console", "AgentsDashboard.Server.Console\AgentsDashboard.Server.Console.csproj", "{9C079051-61BF-4F0C-AA49-CA57DAD72249}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentsDashboard.Client.Domain", "AgentsDashboard.Client.Domain\AgentsDashboard.Client.Domain.csproj", "{60CE3FBA-9C10-4C9F-8DCD-01E7A5119D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentsDashboard.Shared", "AgentsDashboard.Shared\AgentsDashboard.Shared.csproj", "{48D51702-0F56-42FD-8DBA-2ACFB9B54394}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{9C079051-61BF-4F0C-AA49-CA57DAD72249}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C079051-61BF-4F0C-AA49-CA57DAD72249}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C079051-61BF-4F0C-AA49-CA57DAD72249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60CE3FBA-9C10-4C9F-8DCD-01E7A5119D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60CE3FBA-9C10-4C9F-8DCD-01E7A5119D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60CE3FBA-9C10-4C9F-8DCD-01E7A5119D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60CE3FBA-9C10-4C9F-8DCD-01E7A5119D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48D51702-0F56-42FD-8DBA-2ACFB9B54394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D51702-0F56-42FD-8DBA-2ACFB9B54394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D51702-0F56-42FD-8DBA-2ACFB9B54394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D51702-0F56-42FD-8DBA-2ACFB9B54394}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

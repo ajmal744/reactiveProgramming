@@ -14,7 +14,7 @@ namespace AgentsDashboard.Server.Console
                 map.UseCors(CorsOptions.AllowAll);
                 var hubConfiguration = new HubConfiguration
                 {
-                    Resolver = new AutofacSignalRDependencyResolver(App.Container),
+                    Resolver = new AutofacSignalRDependencyResolver(Program.Container),
 
                 };
                 // Run the SignalR pipeline. We're not using MapSignalR
