@@ -75,9 +75,11 @@
     <Compile Include="AgentScanHealthHub.cs" />
     <Compile Include="Bootstrapper.cs" />
     <Compile Include="ContextHolder.cs" />
+    <Compile Include="IAgentHealthFeed.cs" />
     <Compile Include="IAgentHealthScanPublisher.cs" />
     <Compile Include="IContextHolder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimulateAgentHealthFeed.cs" />
     <Compile Include="Transport\AutofacSignalRDependencyResolver.cs" />
   </ItemGroup>
   <ItemGroup>

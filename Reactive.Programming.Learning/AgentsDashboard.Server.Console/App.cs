@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Autofac;
+﻿using Autofac;
 using Microsoft.Owin.Hosting;
 
 namespace AgentsDashboard.Server.Console
@@ -16,6 +12,7 @@ namespace AgentsDashboard.Server.Console
             Container = new Bootstrapper().Build();
 
             WebApp.Start("http://localhost:8080");
+            Container.Resolve<IAgentHealthFeed>().Start();
         }
     }
 }
