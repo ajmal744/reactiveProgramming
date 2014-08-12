@@ -4,6 +4,6 @@ namespace AgentsDashboard.Server
 {
     public class ContextHolder : IContextHolder
     {
-        public IHubCallerConnectionContext<Agent> AgentScanHealthClients { get; set; }
+        public IHubCallerConnectionContext<dynamic> AgentScansHealthClients { get; set; }
     }
 }
